@@ -24,6 +24,7 @@ class HomeController extends GetxController
   final GeneralGetStorageService getStorageService = Get.find();
   final cartTotalItems = 0.obs;
   final cartTotalPrice = 0.obs;
+  final isFetching = true.obs;
   final searchValue = "".obs;
   late Worker searchWorker = debounce(searchValue, (_) async {
     if (searchValue.value.isNotEmpty) {
@@ -59,9 +60,11 @@ class HomeController extends GetxController
   @override
   void onClose() {}
   firstLoad() async {
+    isFetching.value = true;
     await getFruitList();
     initCartItems();
     await getUserData();
+    isFetching.value = false;
   }
 
   getFruitList() async {
