@@ -107,7 +107,20 @@ class HomeController extends GetxController
       product: productType,
       quantity: 1,
     );
-    cartItems.add(cartProduct);
+    var checkProduct = cartItems
+        .where((value) => value.product?.name == cartProduct.product?.name)
+        .map((e) => true)
+        .toList();
+    if (checkProduct.isNotEmpty && checkProduct.first) {
+      cartItems.asMap().entries.map((e) {
+        if (e.value.product?.name == cartProduct.product?.name) {
+          cartItems[e.key].quantity = cartItems[e.key].quantity! + 1;
+        }
+      }).toList();
+    } else {
+      cartItems.add(cartProduct);
+    }
+    countCartItems();
     setCartLocalValue();
   }
 
