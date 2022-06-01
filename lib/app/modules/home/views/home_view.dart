@@ -16,19 +16,19 @@ class HomeView extends GetView<HomeController> {
         Get.focusScope?.unfocus();
       },
       child: Obx(
-        () => controller.isFetching.value
-            ? Center(
-                child: SizedBox(
-                  child: CircularProgressIndicator(
-                    color: Palette.primary,
+        () => Scaffold(
+          backgroundColor: Colors.white,
+          body: controller.isFetching.value
+              ? Center(
+                  child: SizedBox(
+                    child: CircularProgressIndicator(
+                      color: Palette.primary,
+                    ),
+                    height: 20,
+                    width: 20,
                   ),
-                  height: 20,
-                  width: 20,
-                ),
-              )
-            : Scaffold(
-                backgroundColor: Colors.white,
-                body: SizedBox(
+                )
+              : SizedBox(
                   height: Get.height,
                   child: Obx(
                     () {
@@ -42,8 +42,10 @@ class HomeView extends GetView<HomeController> {
                     },
                   ),
                 ),
-                bottomNavigationBar: const HomeBottomBar(),
-              ),
+          bottomNavigationBar: controller.isFetching.value
+              ? const SizedBox()
+              : const HomeBottomBar(),
+        ),
       ),
     );
   }

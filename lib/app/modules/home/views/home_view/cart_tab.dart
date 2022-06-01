@@ -116,6 +116,8 @@ class CartTab extends GetView<HomeController> {
                   ? null
                   : () {
                       controller.cartItems.clear();
+                      controller.cartTotalItems.value = 0;
+                      controller.cartTotalPrice.value = 0;
                     },
               style: ElevatedButton.styleFrom(
                 primary: Palette.primary,

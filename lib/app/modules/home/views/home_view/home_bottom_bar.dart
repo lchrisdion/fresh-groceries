@@ -46,7 +46,7 @@ class HomeBottomBar extends GetView<HomeController> {
                   description: 'Cart',
                   imagePath: 'assets/images/cart.png',
                   index: 1,
-                  totalNotif: controller.cartItems.length,
+                  totalNotif: controller.cartTotalItems.value,
                 ),
               ),
               HomeBottomBarItemWidget(

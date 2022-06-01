@@ -156,7 +156,7 @@ class CartCardWidget extends GetView<CardProductController> {
                               color: Palette.primary,
                               width: 2,
                             ),
-                            shape: BoxShape.circle,
+                            borderRadius: BorderRadius.circular(10),
                           ),
                           child: Text(
                             '-',
@@ -192,7 +192,7 @@ class CartCardWidget extends GetView<CardProductController> {
                             color: Palette.primary,
                             width: 2,
                           ),
-                          shape: BoxShape.circle,
+                          borderRadius: BorderRadius.circular(10),
                         ),
                         child: Text(
                           '+',
