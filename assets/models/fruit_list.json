@@ -1,0 +1,179 @@
+[
+    {
+        "type_name": "apple",
+        "products": [
+            {
+                "name": "Apple Grade 1",
+                "rating": 2,
+                "price": 12000,
+                "image_url": "https://media.istockphoto.com/photos/red-apple-picture-id184276818?k=20&m=184276818&s=612x612&w=0&h=QxOcueqAUVTdiJ7DVoCu-BkNCIuwliPEgtAQhgvBA_g="
+            },
+            {
+                "name": "Apple Grade 2",
+                "rating": 1,
+                "price": 22000,
+                "image_url": "https://media.istockphoto.com/photos/red-apple-with-leaf-isolated-on-white-background-picture-id185262648?b=1&k=20&m=185262648&s=170667a&w=0&h=2ouM2rkF5oBplBmZdqs3hSOdBzA4mcGNCoF2P0KUMTM="
+            },
+            {
+                "name": "Apple Grade 3",
+                "rating": 3,
+                "price": 32000,
+                "image_url": "https://www.collinsdictionary.com/images/full/apple_158989157.jpg"
+            },
+            {
+                "name": "Apple Grade 4",
+                "rating": 4,
+                "price": 42000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QmkGwmo2Bnu2Dg_-hfMsZiF_TIoIjYj2BQ&usqp=CAU"
+            },
+            {
+                "name": "Apple Grade 5",
+                "rating": 4,
+                "price": 52000,
+                "image_url": "https://media.istockphoto.com/photos/red-apple-picture-id183414355?b=1&k=20&m=183414355&s=170667a&w=0&h=I6mhKqlkMt_tTxtEXOCU9KpB0Odm8Gkb6ku-vLlKG6E="
+            },
+            {
+                "name": "Apple Grade 6",
+                "rating": 4,
+                "price": 62000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEF-lAKF-ih6i-_1QHErs7PI-Nu_dD1ms_Eg&usqp=CAU"
+            },
+            {
+                "name": "Apple Grade 7",
+                "rating": 1,
+                "price": 72000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRFxQgFNxTXps1YKHJxIS91JDe8ylqDjEouw&usqp=CAU"
+            },
+            {
+                "name": "Apple Grade 8",
+                "rating": 2,
+                "price": 82000,
+                "image_url": "https://usapple.org/wp-content/uploads/2019/10/apple-granny-smith.png"
+            },
+            {
+                "name": "Apple Grade 9",
+                "rating": 1,
+                "price": 52000,
+                "image_url": "https://usapple.org/wp-content/uploads/2019/10/apple-gala.png"
+            }
+        ]
+    },
+    {
+        "type_name": "orange",
+        "products": [
+            {
+                "name": "Orange Grade 1",
+                "rating": 1,
+                "price": 10000,
+                "image_url": "https://media.istockphoto.com/photos/orange-picture-id185284489?b=1&k=20&m=185284489&s=170667a&w=0&h=a_fCXMop7ZX1V1yoQDYQeIwZTwIei3UjOmmRItszleY="
+            },
+            {
+                "name": "Orange Grade 2",
+                "rating": 2,
+                "price": 20000,
+                "image_url": "https://images.unsplash.com/photo-1603664454146-50b9bb1e7afa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8b3JhbmdlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            },
+            {
+                "name": "Orange Grade 3",
+                "rating": 3,
+                "price": 30000,
+                "image_url": "https://media.istockphoto.com/photos/orange-slice-picture-id1163872349?k=20&m=1163872349&s=612x612&w=0&h=1oVhcd6gYzgvDCVJVqJN_6mPUnHCd9uYQk5rZ3Il_9s="
+            },
+            {
+                "name": "Orange Grade 4",
+                "rating": 4,
+                "price": 40000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOxNvWesBSuLq1YkGGs70ZMcKxIvfuFdb4ew&usqp=CAU"
+            },
+            {
+                "name": "Orange Grade 5",
+                "rating": 3,
+                "price": 50000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPjgqK0PUDrSBI9VqETyvaCgnKLcAUHoiHeg&usqp=CAU"
+            },
+            {
+                "name": "Orange Grade 6",
+                "rating": 4,
+                "price": 60000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOtj8VrC1A-XHR7t9-qWxBLfTVk6VQ2XvAeA&usqp=CAU"
+            },
+            {
+                "name": "Orange Grade 7",
+                "rating": 3,
+                "price": 70000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0xJVavsfCIHQJyZj5GECRNEJzJKtAthTKXA&usqp=CAU"
+            },
+            {
+                "name": "Orange Grade 8",
+                "rating": 2,
+                "price": 80000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP8dy33UhrLJWueewdubn5LqnJrW_oE7w67w&usqp=CAU"
+            },
+            {
+                "name": "Orange Grade 9",
+                "rating": 1,
+                "price": 50000,
+                "image_url": "https://barthfruit.ch/custom/images/contentBilder/big/orange.jpg"
+            }
+        ]
+    },
+    {
+        "type_name": "banana",
+        "products": [
+            {
+                "name": "Banana Grade 1",
+                "rating": 1,
+                "price": 11000,
+                "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg"
+            },
+            {
+                "name": "Banana Grade 2",
+                "rating": 4,
+                "price": 21000,
+                "image_url": "https://img.freepik.com/free-vector/vector-whole-chopped-ripe-yellow-banana-isolated-white-background_1284-45451.jpg?w=2000"
+            },
+            {
+                "name": "Banana Grade 3",
+                "rating": 3,
+                "price": 31000,
+                "image_url": "https://img.freepik.com/free-vector/vector-ripe-yellow-banana-bunch-isolated-white-background_1284-45456.jpg"
+            },
+            {
+                "name": "Banana Grade 4",
+                "rating": 2,
+                "price": 41000,
+                "image_url": "https://www.exotic-seeds.store/10725-large_default/musa-nagensium-banana-seeds.jpg"
+            },
+            {
+                "name": "Banana Grade 5",
+                "rating": 1,
+                "price": 51000,
+                "image_url": "https://images.heb.com/is/image/HEBGrocery/000377497"
+            },
+            {
+                "name": "Banana Grade 6",
+                "rating": 4,
+                "price": 61000,
+                "image_url": "https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2018/08/bananas-1354785_1920-1200x800.jpg"
+            },
+            {
+                "name": "Banana Grade 7",
+                "rating": 3,
+                "price": 71000,
+                "image_url": "https://www.luluhypermarket.com/medias/18621-01.jpg-1200Wx1200H?context=bWFzdGVyfGltYWdlc3wxMDk5NTZ8aW1hZ2UvanBlZ3xpbWFnZXMvaDE0L2g1Mi85MTQ3ODI1OTEzODg2LmpwZ3wyNTdkMmZhMGQ2MzBkZDZhZTRiNTU5YjYwMmI0NWMxYzJiMWIxNTc0OGQwY2ExMjBiY2FjNmJlMjMzZTE2YzAz"
+            },
+            {
+                "name": "Banana Grade 8",
+                "rating": 2,
+                "price": 81000,
+                "image_url": "https://c.ndtvimg.com/2019-04/dl9g6gn8_bananas_625x300_11_April_19.jpg?im=Resize=(1230,900)"
+            },
+            {
+                "name": "Banana Grade 9",
+                "rating": 1,
+                "price": 51000,
+                "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzqxZYaeHmDty1pzBTGr9YoeN0lRl_BVQmPQ&usqp=CAU"
+            }
+        ]
+    }
+]
