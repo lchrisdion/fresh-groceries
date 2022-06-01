@@ -13,15 +13,18 @@ class HomeCategoryTabList extends GetView<HomeController> {
       color: Colors.white,
       width: double.infinity,
       padding: const EdgeInsets.fromLTRB(
-        35,
+        0,
         21,
-        35,
+        0,
         17,
       ),
       child: SizedBox(
         height: 49,
         child: Obx(
           () => ListView(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 35,
+            ),
             shrinkWrap: true,
             scrollDirection: Axis.horizontal,
             children: controller.productTypeList
